@@ -15,7 +15,7 @@ import (
 	"github.com/rickiey/btcec/v2"
 	"github.com/rickiey/btcutil/base58"
 	"github.com/rickiey/btcutil/bech32"
-	"golang.org/x/crypto/ripemd160"
+	"github.com/decred/dcrd/crypto/ripemd160"
 )
 
 // SetBlockBytes sets the internal serialized block byte buffer to the passed

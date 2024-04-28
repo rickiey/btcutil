@@ -14,7 +14,7 @@ import (
 	"hash"
 	"strings"
 
-	"golang.org/x/crypto/ripemd160"
+	"github.com/decred/dcrd/crypto/ripemd160"
 
 	"github.com/rickiey/btcec/v2"
 	"github.com/rickiey/btcec/v2/ecdsa"

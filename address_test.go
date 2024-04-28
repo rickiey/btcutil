@@ -15,7 +15,7 @@ import (
 	"github.com/rickiey/btcutil"
 	"github.com/rickiey/btcutil/chaincfg"
 	"github.com/rickiey/btcutil/wire"
-	"golang.org/x/crypto/ripemd160"
+	"github.com/decred/dcrd/crypto/ripemd160"
 )
 
 type CustomParamStruct struct {
